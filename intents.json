@@ -1,0 +1,57 @@
+{"intents": [
+        {"tag": "mail",
+         "patterns": ["i want to send a mail","can you send a mail","want to mail"],
+         "responses": ["ya sure","here it is"],
+         "context_set": ""
+        },
+        {"tag": "weather",
+         "patterns": ["whats the weather look like","whats the climate","climate in my location","weather in my location"],
+         "responses": [],
+         "context_set": ""
+        },
+        {"tag": "location",
+         "patterns": ["whats my location","where am i","whats the place im in","may i know my location"],
+         "responses": ["here is your location"],
+         "context_set": ""
+        },
+        {"tag": "charge",
+         "patterns": ["whats the charge","what is battary present","what about my battery"],
+         "responses": [],
+         "context_set": ""
+        },
+        {"tag": "time",
+         "patterns": ["may i know the time","what is the time","can you tell me the time","present time","current time"],
+         "responses": [],
+         "context_set": ""
+        },
+        {"tag": "wiki",
+         "patterns": ["who is","may i know about"],
+         "responses": [],
+         "context_set": ""
+        },
+        {
+          "tag": "systeminfo",
+          "patterns": ["say about my system", "system info", "about my pc", "whats my speifications"],
+          "responses": ["hear is your system info", "about this computer", "system specification"],
+          "context_set": ""
+        },
+        {
+          "tag": "netspeed",
+          "patterns": ["whats my internet speed", "my datapacket travel speed ", "connestion speed"],
+          "responses": ["your inter net speed is ", "inter net speed checked", "data package travel time is ", "data travel time "],
+          "context_set": ""
+        },
+        {
+          "tag": "emergency",
+          "patterns": ["its an emergency", "im in a truble", "sos"],
+          "responses": ["sos with ip address sent successfully", "sos sent with your ip address", "message sent with ip address"],
+          "context_set": ""
+        },
+        {
+          "tag": "open",
+          "patterns": ["can you open", "open", "check weather", "is that any thing"],
+          "responses": [],
+          "context_set": ""
+        }
+   ]
+}
